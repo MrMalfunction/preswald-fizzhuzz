@@ -1,0 +1,21 @@
+[project]
+title = "Spotify songs Analysis"
+version = "0.1.0"
+port = 8501
+slug = "preswald-162060"
+entrypoint = "main.py"
+
+[branding]
+name = "Preswald Project"
+logo = "images/logo.png"
+favicon = "images/favicon.ico"
+primaryColor = "#F89613"
+
+
+[data.spotify_data]
+type = "csv"
+path = "data/Spotify_2024_Global_Streaming_Data.csv"
+
+[logging]
+level = "INFO"
+format = "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
